@@ -1,43 +1,69 @@
-# Lesson Title
-
-All Readmes should follow a similar format when it comes to structure. Please
-refer to the [style guide][] for a detailed explaination of standards.
-
-## Learning Goals
-
-- [Check out this Readme on writing Learning Goals][goals]
+# Sinatra Project Planning
 
 ## Introduction
 
-Sometimes called an Overview, this section should contain a brief summary of
-what the lesson contains. Great introductions present a problem that is solved
-by the concepts reviewed in this lesson.
+The Sinatra project is an excellent opportunity to show what you've learned so
+far!
 
-## Contents
+**Use this lesson to help you complete this [planning form][]**
 
-Lessons often contain multiple sections of content. Use the Learning Goals
-you've defined to guide you on what sections and sub-sections are needed.
+Tips on all aspects of the project are included here, so make sure to have a
+look through!
 
-Refer to [this guide for assistance when writing Readmes][readmes]
+> **Note:** Keep in mind that the Ask a Question is not permitted to help while
+> you are building your projects. Use the internet and the resources provided in
+> this document if you get stuck!
 
-## Conclusion
+## How to Get Started On a Successful Project Build
 
-Wrap up the lesson with a brief review of what was covered. This is often a good
-place to connect the concepts discussed within a larger context.
+#### DO NOT WRITE CODE YET!!!!
 
-## Resources
+##### Pre-Coding Work
 
-This is an optional section, but list and link to resources, articles, and
-websites that you think will be beneficial for additional reading. Also, if your
-written contents included external links, it may be good to add a second
-reference here:
+1. Ideate! What do you want to build?
+    - Choose a domain you're familiar with!
+    - Choose a domain you care about
 
-- [Style Guide][style guide]
-- [Writing Learning Goals][goals]
-- [Writing Readmes][readmes]
+2. Wireframing & User Stories
+    - Write down your models, their attributes, and their associations
+    - As a user, I can .....
+    - A user should be able to .....
+    - What does your app _do_?
 
-[style guide]: https://github.com/learn-co-curriculum/curriculum-team/blob/master/writing/style_guide.md
-[goals]: https://github.com/learn-co-curriculum/curriculum-team/blob/master/writing/creation-content-focus-learning_objectives.md
-[readmes]: https://github.com/learn-co-curriculum/curriculum-team/blob/master/writing/creation-content-focus-writing_readme.md
+3. Design your MVP = 'Minimum Viable Product' vs. what are my 'stretch goals'
+    - Stretch goals - bonus features you want but don't need
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/readme-template' title='Readme Template.'>Readme Template.</p>
+#### NOW, WE CODE! 
+
+**Note:** NO controllers or views yet!
+
+4. Build your models
+    - Migrations
+    - Model classes
+    - Associations (& validations)
+
+5. Test your models and associations in the console
+    - create some seed data
+    - adjust migrations as needed
+
+#### NOW, CONSIDER CONTROLLERS AND VIEWS
+
+6. Start with your ApplicationController helpers - `#logged_in?` and `#current_user`
+    - add your login/signup/signout routes
+
+7. Build out controller routes for other models (add a controller for each model)
+
+8. Build views and controller actions based on the flow of your app, one step at
+   a time, testing as you go!
+    - Use `shotgun` and `pry` (or `raise`/`inspect`) all the time!
+
+###### Using the Corneal Gem
+
+You are welcome to use the [corneal gem][].  However, you should understand what
+it's doing.  Remove any folders and files you're not using.  For example, if
+you're not going to write any tests, delete the `spec` folder.
+
+[corneal gem]:https://github.com/thebrianemory/corneal
+
+
+[planning form]: https://docs.google.com/forms/d/18VxqGwtr4VJeTeogitVaD2gBfmQleGyPoz4N3gMURuU/edit?ts=5df96877
