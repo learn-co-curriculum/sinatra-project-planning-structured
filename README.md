@@ -50,7 +50,7 @@ look through!
     - their relationships
     - a basic flow of how your application will work
 
-### NOW, start coding.
+#### NOW, start coding.
 
 5.  Start with your back-end -- build your models
 
@@ -65,7 +65,7 @@ look through!
     - create some seed data
     - adjust migrations as needed
 
-NOW, consider front-end concerns like controllers and views
+#### NOW, consider front-end concerns like controllers and views
 
 
 7.  Start with your ApplicationController helpers - `#logged_in?` and `#current_user`
