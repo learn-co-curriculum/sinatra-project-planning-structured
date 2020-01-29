@@ -3,7 +3,8 @@
 ## Introduction
 
 The Sinatra project is your first web application -- complete with a database! 
-Look Ma, I built a website!  Here is an opinionated guide for successfully
+Look Ma, I built a website!  In a few lessons, you'll be presented with the project
+requirements. Here is an opinionated guide for successfully
 getting going with your Sinatra project.
 
 **Use this lesson to help you complete this [planning form][]**
