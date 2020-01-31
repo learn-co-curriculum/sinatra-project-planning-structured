@@ -120,4 +120,3 @@ look through!
 [the sinatra docs]: http://sinatrarb.com/documentation.html
 [study groups]: https://learn.co/study-groups
 [some context]: https://github.com/AyanaZaire/sinatra-section-resources/blob/master/what-to-prioritize-in-sinatra.md
-[planning form]: https://docs.google.com/forms/d/18VxqGwtr4VJeTeogitVaD2gBfmQleGyPoz4N3gMURuU/edit?ts=5df96877
