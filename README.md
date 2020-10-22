@@ -1,4 +1,4 @@
-# Sinatra Project Planning
+# Bonus: Sinatra Project Planning
 
 ## Introduction
 
