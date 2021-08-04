@@ -2,10 +2,10 @@
 
 ## Introduction
 
-The Sinatra project is your first web application -- complete with a database!
-Look Ma, I built a website! In the next lesson, you'll be presented with the project
-requirements. Here is an opinionated guide for successfully
-getting going with your Sinatra project.
+The Sinatra project is your first web application — complete with a database!
+Look Ma, I built a website! In the next lesson, you'll be presented with the
+project requirements. Here is an opinionated guide for successfully getting
+going with your Sinatra project.
 
 **Use this lesson to help you plan for your Sinatra Project**
 
@@ -18,42 +18,42 @@ look through!
 
 ## How to Get Started On a Successful Project Build
 
-1.  Read through the project requirements and make sure you understand them!
+**1.** Read through the project requirements and make sure you understand them!
 
-2.  Ideate! What do you want to build? Some considerations:
+**2.** Ideate! What do you want to build? Some considerations:
 
-    - Choose a domain you're familiar with!
-    - Choose a domain you care about
-    - Choose a domain that fits the project specs
+- Choose a domain you're familiar with!
+- Choose a domain you care about
+- Choose a domain that fits the project specs
 
-3.  User stories describe how a user would use your app, such as “A user should
-    be able to…” or “As a user, I can, …” and finish the sentence. Stick with
-    high-level, like, “A user can sign up or log in, create widgets, and edit and
-    delete widgets they own.”
+**3.** User stories describe how a user would use your app, such as “A user should
+be able to…” or “As a user, I can, …” and finish the sentence. Stick with
+high-level, like, “A user can sign up or log in, create widgets, and edit and
+delete widgets they own.”
 
-    Distinguish user stories that relate to your MVP from those that describe stretch
-    goals. What’s the difference?
+Distinguish user stories that relate to your MVP from those that describe stretch
+goals. What’s the difference?
 
-    - MVP = 'Minimum Viable Product': the most basic app that meets requirements and has
-      core functionality
-    - Stretch features: bonus features you want but don't need
+- MVP = 'Minimum Viable Product': the most basic app that meets requirements and has
+  core functionality
+- Stretch features: bonus features you want but don't need
 
-    Have clear goals regarding MVP and stretch features. Once you have your MVP
-    up-and-running, it’s a good idea to use feature branches from there and merge them
-    in only when they’ve been thoroughly tested. This way, once you have a working
-    version of your app, you always have a working version of your app. In theory,
-    anyway.
+Have clear goals regarding MVP and stretch features. Once you have your MVP
+up-and-running, it’s a good idea to use feature branches from there and merge them
+in only when they’ve been thoroughly tested. This way, once you have a working
+version of your app, you always have a working version of your app. In theory,
+anyway.
 
-4.  You don’t have to be an artist, but draw out:
+**4.** You don’t have to be an artist, but draw out:
 
-    - your models
-    - their attributes
-    - their relationships
-    - a basic flow of how your application will work
+- your models
+- their attributes
+- their relationships
+- a basic flow of how your application will work
 
 #### NOW, start coding.
 
-5.  Start with your back-end -- build your models
+**5.** Start with your back-end -- build your models
 
     - Migrations
     - Model classes
@@ -68,14 +68,14 @@ look through!
 
 #### NOW, consider front-end concerns like controllers and views
 
-7.  Start with your ApplicationController helpers - `#logged_in?` and `#current_user`
+**7.** Start with your ApplicationController helpers - `#logged_in?` and `#current_user`
 
-    - add your login/signup/signout routes
+    - add your login/signup/sign-out routes
 
-8.  Build out controller routes for other models (add a controller for each model)
+**8.** Build out controller routes for other models (add a controller for each model)
 
-9.  Build views and controller actions based on the flow of your app, one step at a
-    time, testing as you go!
+**9.** Build views and controller actions based on the flow of your app, one step at a
+time, testing as you go!
 
     - Use `shotgun` and `pry` (or `raise`/`inspect`) all the time!
 
@@ -110,11 +110,6 @@ look through!
 - [Gemara Dictionary](http://www.gemaradictionary.com/)
 - [Expense Tracker](https://sinatra-expense-tracker.herokuapp.com/)
 
-### Videos
-
-- Head to the [video library][] and search for ‘sinatra’... there is a ton of recorded material there!
-
-[video library]: https://instruction.learn.co
 [draw.io]: https://www.draw.io/
 [corneal]: https://github.com/thebrianemory/corneal
 [the sinatra docs]: http://sinatrarb.com/documentation.html
